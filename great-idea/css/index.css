@@ -64,3 +64,158 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	margin: 25px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+
+
+/* item to header && container to anchors*/
+nav {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	flex-wrap: wrap;	
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+
+}
+
+.cta {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 60px;
+}
+
+.cta .cta-text, img {
+	margin: 30px 40px;
+}
+
+button {
+	font-size: 17px;
+	padding: 5px 15px;
+	margin: 10px 0;
+}
+
+.top-content {
+	display: flex;
+	border-top: 1px solid black;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.top-content .text-content {
+	margin: 40px 0px;
+	width: 400px;
+	
+}
+
+.main-content img {
+	width: 95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-content {
+	display: flex;
+	border-bottom: 1px solid black;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.bottom-content .text-content {
+	margin: 40px 0px;
+	width: 266px; 
+}
+
+.contact {
+	padding: 30px 70px 0;
+}
+  
+.contact p {
+	margin: 20px 0;
+}
+  
+footer {
+	margin: 30px 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Most of the Service's page css */
+
+.top-content .text-content-services {
+	margin: 40px 10px;
+	width: 300px;
+	background-color: lightgray;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.services-content {
+	margin: 10px 30px;
+}
+
+.services-content .services-header-img {
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.facts {
+	display: flex;
+	margin-left: 50px;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.facts p {
+	margin-bottom: 30px;
+	width: 400px;
+}
+
+.facts ul {
+	margin: 15px;
+}
+
+li {
+	margin: 15px 0;
+}
+
+.facts .services-info-img {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
