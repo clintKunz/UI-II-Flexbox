@@ -88,6 +88,7 @@ nav {
 nav a {
 	color: grey;
 	text-decoration: none;
+	margin: 3px 3px;
 
 }
 
@@ -175,7 +176,7 @@ footer {
 }
 
 .services-content {
-	margin: 10px 30px;
+	margin: 30px 30px;
 }
 
 .services-content .services-header-img {
@@ -193,11 +194,15 @@ ul {
 
 .facts {
 	display: flex;
-	margin-left: 50px;
 	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	border-top: 1px solid black;
+	padding-top: 30px; 
+}
 
+.facts .facts-content {
+	margin-left: 50px; 
 }
 
 .facts p {
